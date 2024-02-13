@@ -2,7 +2,7 @@ import axios from "axios";
 import { ImagemSchema } from "./schemas/do-data-imagens-response";
 import { DoPage } from "./schemas/doDataPage";
 
-const BASE_URL = "http://localhost:8888/api/";
+const BASE_URL = "https://i-love-wallpapers-api-production.up.railway.app/api/";
 
 async function doDataTodasImagens(page: number): Promise<DoPage<ImagemSchema>> {
   const response = await axios.get<DoPage<ImagemSchema>>(

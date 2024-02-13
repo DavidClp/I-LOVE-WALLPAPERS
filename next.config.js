@@ -18,6 +18,12 @@ const nextConfig = {
         port: "",
         pathname: "/wallpapers/imagens/**",
       },
+      {
+        protocol: "https",
+        hostname: "i-love-wallpapers-api-production.up.railway.app/",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
